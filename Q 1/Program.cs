@@ -56,7 +56,6 @@ namespace Q_1
             Console.Write("enter product id you want to remove");
             int id2 = int.Parse(Console.ReadLine());
             cart.removeproduct(id2);
-            cart.displaycart();
 
             Employee employee = new Employee(1, "Abdul", "Rehman", new DateTime(1990, 5, 15), 55000, "IT");
             Employee employee2 = new Employee(2, "Ali", "Hassan", new DateTime(2023, 8, 20), 55000, "Fashion designer");
