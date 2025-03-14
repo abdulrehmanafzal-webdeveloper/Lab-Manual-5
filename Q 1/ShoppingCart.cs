@@ -36,6 +36,7 @@ namespace Q_1
                 {
                     found = true;
                     Product[i] = Product[i+1];
+                    Console.WriteLine("product is removed");
                 }
             }
             if (found == true)
